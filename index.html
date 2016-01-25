@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Banking Form</title>
+	<link rel="stylesheet" type="text/css" href="css/styling.css">
+</head>
+  <body>
+    <h2 class="header">Loan Application</h2>
+     <section class="form">
+       <p class="heads">Personal Information</p> 
+        <label><input class="form-field" type="text" placeholder="First Name"></label>
+        <label><input class="form-field" type="text" placeholder="Middle Name"></label>
+        <input class="form-field" type="text" placeholder="Last Name">
+        <input class="form-field" type="text" placeholder="Address">
+        <input class="form-field" type="text" placeholder="City">
+        <select id="state" class="form-field" name="current-state">
+          <option value="AL">AL</option>
+          <option value="AK">AK</option>
+          <option value="AZ">AZ</option>
+        </select>
+        <input class="zip" type="text" placeholder="Zip Code">
+       <p class="heads">Employer Information</p>
+        <input class="form-field" type="text" placeholder="Employer">
+        <input class="form-field" type="text" placeholder="Employer Address">
+        <input class="form-field" type="text" placeholder="City">
+        <select id="state" class="form-field" name="current-state">
+          <option value="AL">AL</option>
+          <option value="AK">AK</option>
+          <option value="AZ">AZ</option>
+        </select>
+        <input class="zip" type="text" placeholder="Zip Code">
+       <p class="heads">Type of Loan</p>
+       <select id="loan-type" class="form-field" name="current-state">
+          <option value="Commercial">Commercial</option>
+          <option value="Real Estate">Real Estate</option>
+          <option value="Personal">Personal</option>
+          <option value="Mortgage">Mortgage</option>
+        </select>
+        <div>
+         <p class="heads">Loan Length (yrs)</p>
+          <input class="radio" type="radio" value="5 Years"> 5
+          <input class="radio" type="radio" value="5 Years"> 15
+          <input class="radio" type="radio" value="5 Years"> 30
+          </div>
+          <div>
+            <p class="heads">Special Conditions</p>
+            <label><input class="conditions" type="checkbox" name="conditions value="Have down payment" checked="checked">
+            <h4 class="con-text">Have down payment</h4></label>
+             <input class="conditions" type="checkbox" name="conditions value="Out-of-state" checked="checked">
+            <h4 class="con-text">Out-of-state</h4>
+            <input class="conditions" type="checkbox" name="conditions value="co-signer" checked="checked">
+            <h4 class="con-text">co-signer</h4>
+            <input class="conditions" type="checkbox" name="conditions value="Married" checked="checked">
+            <h4 class="con-text">Married</h4>
+          </div>
+          <p class="heads">Loan Amount</p>
+          <input class="form-field" type="text" placeholder="Amount requested">
+          <label><p class="heads">Additional Info</p>
+            <textarea  class="message" name="message" rows="4" cols="19">
+              </textarea>
+          </label>
+          <label><input class="form-field" type="text" placeholder="Email Address"></label>
+          <label><input class="form-field" type="text" placeholder="Phone Number"></label>
+          <label><input class="form-field" type="text" placeholder="Linkedin URL"></label>
+          <label>
+            <input type="submit">
+          </label>
+
+     </section>
+
+ </body>
+</html>
